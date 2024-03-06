@@ -1,0 +1,23 @@
+{
+  "name": "be-booking-appointment-app",
+  "version": "1.0.0",
+  "description": "be booking appointment app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "mysql2": "^3.5.2",
+    "sequelize": "^6.32.1"
+  }
+}
